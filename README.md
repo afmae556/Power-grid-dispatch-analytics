@@ -1,4 +1,4 @@
-# Power Grid Dispatch & Hydrological Energy Analytics
+﻿# Power Grid Dispatch & Hydrological Energy Analytics
 ### *Operational Dispatch, Inflow Exceedance & Reservoir Dynamics for Central San Carlos (1,240 MW)*
 
 [![Python](https://img.shields.io/badge/Python-3.10%2B-blue.svg)](https://www.python.org/)
@@ -8,7 +8,7 @@
 
 ---
 
-## 📌 Executive Summary
+## Executive Summary
 
 This repository contains an engineering framework developed in **Python** to analyze utility-scale power dispatch, hydrological inflow distributions, and reservoir storage dynamics for **Central Hidroeléctrica San Carlos (1,240 MW installed capacity)**, one of the largest dispatchable firm-energy assets in the Colombian National Interconnected System (SIN).
 
@@ -19,7 +19,7 @@ Using official market and operational datasets from **XM (System Operator & Whol
 
 ---
 
-## 🔬 Engineering Methodology & Modules
+## Engineering Methodology & Modules
 
 ### 1. Flow Exceedance & Hydrological Durations (`src/flow_duration_curves.py`)
 * Computes non-parametric empirical percentile distributions for daily river inflows ($m^3/s$) across multi-year historical periods (Río Guatapé / San Carlos basin).
@@ -43,7 +43,7 @@ CF = \frac{E_{\text{annual}} \text{ [MWh]}}{P_{\text{installed}} \text{ [MW]} \t
 
 ---
 
-## 📊 Visual Engineering Analytics
+## Visual Engineering Analytics
 
 | Flow Duration Curve (Guatapé Basin) | Annual Inflow Superposition |
 | :---: | :---: |
@@ -55,7 +55,7 @@ CF = \frac{E_{\text{annual}} \text{ [MWh]}}{P_{\text{installed}} \text{ [MW]} \t
 
 ---
 
-## 🗂️ Repository Structure
+## Repository Structure
 
 ```text
 power-grid-dispatch-analytics/
@@ -80,7 +80,7 @@ power-grid-dispatch-analytics/
 
 ---
 
-## 🚀 Quickstart & Reproduction
+## Quickstart & Reproduction
 
 ### Prerequisites
 * Python 3.10 or higher.
@@ -110,10 +110,11 @@ python src/hourly_dispatch_analysis.py
 
 ---
 
-## 👤 Author
+## Author
 
 **Andrés Felipe Maestre Badillo**  
 *Energy & Sustainability Engineering (B.S. Candidate, 2027) | Minor in Data Science*  
 *Universidad Autónoma de Bucaramanga (UNAB)*  
 *Bucaramanga, Colombia*  
 [LinkedIn Profile](https://www.linkedin.com/in/) | [Email](mailto:afmae556@gmail.com)
+
